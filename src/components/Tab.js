@@ -19,7 +19,7 @@ const Tab = ({children}) => {
   return (
     <div className="tab" onMouseMove={moveHighLight} onMouseOut={hideHighLight}>
       <div className="highlight" style={highlightStyle} />
-      <a>{children}</a>
+      {children}
     </div>
   )
 }
